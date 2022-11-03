@@ -1,0 +1,99 @@
+@charset "UTF-8";
+:root {
+  --primery-fon-color: rgba(255, 255, 255, 1);
+  --second-color-main-footer: rgba(47, 48, 58, 1);
+  --body-text-color: rgba(33, 150, 243, 1);
+  --primery-text-color: rgba(33, 33, 33, 1);
+  --primery-text-color-gray: rgba(117, 117, 117, 1);
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* второй цвет фона и футера #2F303A */
+/* фон чим ми займаемось #F5F5F5*/
+/* фон наша команда background: rgba(245, 244, 250, 1); */
+/* body text color #000000*/
+/* вторичный цвет текста background: rgba(33, 33, 33, 1);
+*/
+.header {
+  background-color: var(--primery-fon-color);
+  border: 1px solid rgb(236, 236, 236);
+}
+
+.conteiner {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(33, 150, 243);
+  text-decoration: none;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-transition-duration: var(--transition-duration);
+       -o-transition-duration: var(--transition-duration);
+          transition-duration: var(--transition-duration);
+  -webkit-transition-timing-function: var(--transition-timing-function);
+       -o-transition-timing-function: var(--transition-timing-function);
+          transition-timing-function: var(--transition-timing-function);
+}
+
+.accent {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(0, 0, 1);
+  margin-right: 93px;
+  -webkit-transition-duration: var(--transition-duration);
+       -o-transition-duration: var(--transition-duration);
+          transition-duration: var(--transition-duration);
+  -webkit-transition-timing-function: var(--transition-timing-function);
+       -o-transition-timing-function: var(--transition-timing-function);
+          transition-timing-function: var(--transition-timing-function);
+}
+
+.site-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  position: relative;
+  -webkit-transition-duration: var(--transition-duration);
+       -o-transition-duration: var(--transition-duration);
+          transition-duration: var(--transition-duration);
+  -webkit-transition-timing-function: var(--transition-timing-function);
+       -o-transition-timing-function: var(--transition-timing-function);
+          transition-timing-function: var(--transition-timing-function);
+}/*# sourceMappingURL=main.css.map */

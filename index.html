@@ -18,23 +18,23 @@
      <header class="header">
       <div class="conteiner">
        <nav class="main-nav">
-          <a href="./index.html" class="header__logo logo"
-           >Web<span class="logo__accent accent">Studio</span></a>
-
-          <ul class="site-nav__list">
-            <li class="site-nav__item">
-              <a class="link carrent" href="./index.html">Студія</a>
+        
+          <a href="./index.html" class="logo"
+           >Web<span class="accent link">Studio</span></a>
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link carrent">Студія</a>
             </li>
-            <li class="site-nav__item">
-              <a class="link" href="./portfolio.html">Портфоліо</a>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфоліо</a>
             </li>
-            <li class="site-nav__item">
-              <a class="link" href="kontacts">Контакти</a>
+            <li class="item">
+              <a href="kontacts" class="link">Контакти</a>
             </li>
           </ul>
         
-        <ul class="auth-nav__list">
-          <li class="auth-nav__item">
+        <ul class="auth-nav list">
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="header__link__mail">
               <svg class="tech__link" width="19" height="15">
                 <use href="./images/symbol-defs.svg#icon-mailmin"></use>
@@ -57,13 +57,15 @@
      </header>
     <!--герой-->
      <main>
-      <section class="box__hero">
+      <section class="box-hero">
         
-       <div class="hero__wrapper">
+       
+
+        <div class="hero-wrapper">
           
-        <h1 class="hero__title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
         <!--Питання!!!-->
-        <div class="hero__batton">
+        <div class="hero-batton">
         <button type="button" class="button__prime"
           data-modal-open
           >Замовити послугу</button>
@@ -86,27 +88,27 @@
           
         
         <ul class="box-works">
-          <li class="box-works-item">
+          <li class="box-works__item" >
             <h3 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="section-task">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li class="box-works-item">
+          <li class="box-works__item">
             <h3 class="section-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="section-task">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li class="box-works-item">
+          <li class="box-works__item">
             <h3 class="section-title">ПЛАНУВАННЯ</h3>
             <p class="section-task">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="box-works-item">
+          <li class="box-works__item">
             <h3 class="section-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="section-task">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -122,25 +124,25 @@
        <section class="section works">
         <div class="conteiner">
         
-        <h2 class="section-made">Чим ми займаємося</h2>
+        <h2 class="section__made">Чим ми займаємося</h2>
         
         <ul class="section-works">
           <li>
-            <div class="section__works__title item">
+            <div class="section-works__title">
             <img src="./images/netbook.jpg" alt="netbook" width="370" class="netbook">
-            <p class="works__title__tech">десктопні додатки</p>
+            <p class="works-title__tech">десктопні додатки</p>
             </div>
           </li>
           <li>
-            <div class="section__works__title item">
+            <div class="section-works__title">
             <img src="./images/notebook.jpg" alt="notebook" width="370" class="notebook">
-            <p class="works__title__tech">мобільні додатки</p>
+            <p class="works-title__tech">мобільні додатки</p>
             </div>
           </li>
           <li>
-            <div class="section__works__title item">  
+            <div class="section-works__title">  
             <img src="./images/tablet.jpg" alt="tablet" width="370" class="tablet">
-            <p class="works__title__tech">дизайнерскі рішення</p>
+            <p class="works-title__tech">дизайнерскі рішення</p>
             </div>
           </li>
         </ul>
@@ -443,7 +445,7 @@
           class="field__input__footer"
           type="email"
           name="email"
-          requiredn
+          
           id="input__email">
 
         
@@ -463,7 +465,7 @@
 
  
 
-   <div class="backdrop" data-modal>
+   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       
       <button class="modal__close" data-modal-close>
@@ -472,7 +474,7 @@
         </svg>
       </button>
 
-      <form class="form" action="" >
+      <form class="form">
       <p class="form__title">Залиште свої дані, ми вам передзвонимо</p>
 <label class="label" for="input__menmin">
   <span class="label__text">Ім'я</span>
@@ -482,10 +484,10 @@
    class="field__input input"
     type="text" 
     name="name" 
-    requiredn 
+    
     id="input__menmin">
   <svg class="field__icon" width="18" height="18">
-    <use href="./images/symbol-defs.svg#icon-menmin"></use>
+    <use href="./images/symbol-defs.svg#icon-personblackmin"></use>
   </svg>
   </div>
 
@@ -497,10 +499,10 @@
         class="field__input input"
         type="tel" 
         name="tel" 
-        requiredn 
+         
         id="input__telmodmin">
     <svg class="field__icon" width="18" height="18">
-      <use href="./images/symbol-defs.svg#icon-telmodmin"></use>
+      <use href="./images/symbol-defs.svg#icon-phoneblackmin"></use>
     </svg>
     </div>
 
@@ -512,10 +514,10 @@
         class="field__input input"
         type="email"
         name="email"
-        requiredn
+        
         id="input__envelopemin">
       <svg class="field__icon" width="18" height="18">
-        <use href="./images/symbol-defs.svg#icon-envelopemin"></use>
+        <use href="./images/symbol-defs.svg#icon-emailblackmin"></use>
       </svg>
       </div>
 
@@ -525,27 +527,26 @@
          <textarea class="message input" id="message"
            placeholder="Введіть текст"></textarea>
 
-        <label class="privacy"> 
-        <input class="privacy__input hidden"
+        <label class="checkbox-label"> 
+        <input class="checkbox"
          type="checkbox" 
-         name="privacy" 
-         />
-        <span class="privacy__wpapp">
-        <svg class="privacy__icon" width="15" height="14">
-          <use href="./images/symbol-defs.svg#icon-checkboxmin"></use>
-        </svg>
-      </span>
+         name="privacy"> 
+         
+        <span 
+        class="checkbox__icon">
+          </span>
           <span class="privacy__text">
             Погоджуюся з розсилкою та приймаю 
             <a class="privacy__link" href="#">Умови договору</a>
           </span>
          </label>
-
-         <button class="button" type="submit button">Відправити</button>
-
+<div class="button__modal__block">
+         <button class="button__modal" type="submit">Відправити</button>
+</div>
   </form>
 
-   
+    </div>
+   </div>
    <script src="./js/modal.js"></script>
 </body>
 

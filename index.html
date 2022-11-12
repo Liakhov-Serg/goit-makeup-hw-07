@@ -15,36 +15,41 @@
   </head>
   <body class="body">
       <!--шапка-->
-     <header class="header">
+     <header class="header" class="header__link">
       <div class="conteiner">
        <nav class="main-nav">
         
-          <a href="./index.html" class="logo"
-           >Web<span class="accent link">Studio</span></a>
-          <ul class="site-nav list">
-            <li class="item">
-              <a href="./index.html" class="link carrent">Студія</a>
+          <a href="./index.html" class="main-nav__logo"
+           >Web<span class="main-nav__accent"
+           class="main-nav__link"
+           >Studio</span></a>
+          <ul class="site-nav site-nav__link">
+            <li class="site-nav__item">
+              <a href="./index.html" 
+              class="site-nav__link 
+              site-nav__link--carrent"
+              >Студія</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link">Портфоліо</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
             </li>
-            <li class="item">
-              <a href="kontacts" class="link">Контакти</a>
+            <li class="site-nav__item">
+              <a href="kontacts" class="site-nav__link">Контакти</a>
             </li>
           </ul>
         
-        <ul class="auth-nav list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="header__link__mail">
-              <svg class="tech__link" width="19" height="15">
+        <ul class="auth-nav">
+          <li class="auth-nav__item">
+            <a href="mailto:info@devstudio.com" class="auth-nav__item--mail">
+              <svg class="auth-nav__tech" width="19" height="15">
                 <use href="./images/symbol-defs.svg#icon-mailmin"></use>
                     
               </svg>info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="header__link__tel">
-              <svg class="tech__link" width="14" height="22">
+          <li class="auth-nav__item">
+            <a href="tel:+380961111111" class="auth-nav__item--tel">
+              <svg class="auth-nav__tech" width="14" height="22">
                 <use href=".//images/symbol-defs.svg#icon-telmin"></use>
               </svg>+380961111111
             </a>
@@ -55,18 +60,16 @@
        </nav>
       </div>
      </header>
-    <!--герой-->
+    <!--hero-->
      <main>
       <section class="box-hero">
         
-       
-
         <div class="hero-wrapper">
           
         <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-        <!--Питання!!!-->
+        <!--hero batton-->
         <div class="hero-batton">
-        <button type="button" class="button__prime"
+        <button type="button" class="button__prime button"
           data-modal-open
           >Замовити послугу</button>
         </div>
@@ -121,10 +124,10 @@
       </section>
     
       <!--Чим ми займаемося-->
-       <section class="section works">
+       <section class="section-work">
         <div class="conteiner">
         
-        <h2 class="section__made">Чим ми займаємося</h2>
+        <h2 class="section-made">Чим ми займаємося</h2>
         
         <ul class="section-works">
           <li>
@@ -149,7 +152,7 @@
         </div>
       </section>
    
-      <!--Наша команда-->
+      <!--our team-->
       <section class="section-team">
         <div class="conteiner">
         
@@ -367,13 +370,13 @@
       </section>
    </main>
 
-    <!--Футер-->
+    <!--footer-->
     
     <footer class="footer">
         
         <div class="conteiner conteiner-wrap">
           <div class="place">
-          <a href="./index.html" class="logo-footer">Web<span
+          <a href="./index.html" class="logo-footer main-nav__logo">Web<span
            class="accent-footer">Studio</span>
           </a>
 
@@ -396,29 +399,29 @@
       <p class="footer__title">ПРИЄДНУЙТЕСЬ</p>
       <ul class="social__list footer__social">
         <li class="social__item footer__social__item">
-          <a class="social__link__footer" href="#" target="_blank" aria-label="instagram">
-            <svg class="social__icon__footer" width="20" height="20">
+          <a class="social-link__footer" href="#" target="_blank" aria-label="instagram">
+            <svg class="social-icon__footer" width="20" height="20">
               <use href="./images/symbol-defs.svg#icon-instagrammin"></use>
             </svg>
           </a>
         </li>
         <li class="social__item footer__social__item">
-          <a class="social__link__footer" href="#" target="_blank" aria-label="twitter">
-            <svg class="social__icon__footer" width="20" height="20">
+          <a class="social-link__footer" href="#" target="_blank" aria-label="twitter">
+            <svg class="social-icon__footer" width="20" height="20">
               <use href="./images/symbol-defs.svg#icon-twittermin"></use>
             </svg>
           </a>
         </li>
         <li class="social__item footer__social__item">
-          <a class="social__link__footer" href="#" target="_blank" aria-label="facebook">
-            <svg class="social__icon__footer" width="20" height="20">
+          <a class="social-link__footer" href="#" target="_blank" aria-label="facebook">
+            <svg class="social-icon__footer" width="20" height="20">
               <use href="./images/symbol-defs.svg#icon-facebookmin"></use>
             </svg>
           </a>
         </li>
         <li class="social__item footer__social__item">
-          <a class="social__link__footer" href="#" target="_blank" aria-label="linkedin">
-            <svg class="social__iconfooter__" width="20" height="20">
+          <a class="social-link__footer" href="#" target="_blank" aria-label="linkedin">
+            <svg class="social-iconfooter__" width="20" height="20">
               <use href="./images/symbol-defs.svg#icon-linkedinmin"></use>
             </svg>
           </a>
@@ -430,19 +433,19 @@
       </div>
     
 
-    <div class="footer__title__list">
-      <p class="footer__title__mail">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+    <div class="footer-title__list">
+      <p class="footer-title__mail">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
     
-    
+    <!-- form footer -->
     <form>
       <label class="label__footer" for="input__email">
-        <span class="label__text__footer"></span>
+        <span class="label-text__footer"></span>
       </label>
       <div class="field__footer">
         
          <input
           placeholder="Email"
-          class="field__input__footer"
+          class="field-input__footer"
           type="email"
           name="email"
           
@@ -540,7 +543,7 @@
             <a class="privacy__link" href="#">Умови договору</a>
           </span>
          </label>
-<div class="button__modal__block">
+<div class="button-modal__block">
          <button class="button__modal" type="submit">Відправити</button>
 </div>
   </form>

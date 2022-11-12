@@ -1,13 +1,28 @@
-@import './utils/variables';
-@import './components/basic';
-@import './components/header';
-@import './components/hero';
-@import './components/peculiarities';
-@import './components/ourwork';
-@import './components/ourteam';
-@import './components/regularcustomers';
-@import './components/footer';
+@import './abstracts/variables';
+@import './base/modernnormalize';
+@import './base/basic';
+@import './layots/header';
+@import './layots/navigation';
+@import './components/logo';
+@import './layots/hero';
+@import './components/buttons';
+@import './layots/ourpeculiarities';
+@import './layots/ourworks';
+@import './layots/ourteam';
+@import './components/socialicon';
+@import './layots/regularcustomers';
+@import './layots/footer';
+@import './components/logo';
+@import './components/formfooter';
+@import './components/buttonfooter';
 @import './components/backdrop';
-@import './components/modalwindow';
+@import './layots/modal';
+@import './components/buttonmodal';
+@import './layots/headerport';
+@import './layots/mainport';
+@import './layots/cardsetport';
+@import './layots/footer';
+
+
 
 

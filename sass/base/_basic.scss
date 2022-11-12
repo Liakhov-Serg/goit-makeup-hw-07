@@ -122,11 +122,10 @@ img {
 
 
 *,
-*&::before,
-*&::after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
-
 body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -141,12 +140,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
   }
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
   button {
     cursor: pointer;
   }

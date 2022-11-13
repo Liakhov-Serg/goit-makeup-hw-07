@@ -407,7 +407,7 @@ button {
 /* conteiner header */
 .header__link:hover,
 .header__link:focus {
-  color: rgb(33, 150, 243);
+  color: var(--body-text-color);
 }
 
 ul {
@@ -467,6 +467,9 @@ ul {
 }
 .accent:hover, .accent:focus {
   color: var(--body-text-color);
+}
+.accent--color {
+  color: var(--primery-fon-color);
 }
 
 .carrent {
@@ -918,7 +921,7 @@ ul {
 }
 
 /**social**/
-.social__list {
+.social-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -937,7 +940,7 @@ ul {
   margin-left: 32px;
 }
 
-.social__link {
+.social-link {
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -957,17 +960,15 @@ ul {
        -o-transition-timing-function: var(--transition-timing-function);
           transition-timing-function: var(--transition-timing-function);
 }
-
-.social__link:hover,
-.social__link:focus {
-  background-color: #2196f3;
+.social-link:hover, .social-link:focus {
+  background-color: var(--body-text-color);
 }
 
-.social__link:hover .social__icon {
+.social-link:hover .social-icon {
   fill: #ffffff;
 }
 
-.social__icon {
+.social-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1082,40 +1083,13 @@ ul {
 }
 
 /*logo footer*/
+.footer__accent--color {
+  color: var(--primery-fon-color);
+}
+
 .logo-footer .accent-footer:focus,
 .logo-footer .accent-footer:hover {
   color: var(--body-text-color);
-}
-
-.logo-footer {
-  font-family: "Raleway";
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--body-text-color);
-  -webkit-transition-duration: var(--transition-duration);
-       -o-transition-duration: var(--transition-duration);
-          transition-duration: var(--transition-duration);
-  -webkit-transition-timing-function: var(--transition-timing-function);
-       -o-transition-timing-function: var(--transition-timing-function);
-          transition-timing-function: var(--transition-timing-function);
-}
-
-.accent-footer {
-  font-family: "Raleway";
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 0px;
-  letter-spacing: 0.03em;
-  color: var(--primery-fon-color);
-  -webkit-transition-duration: var(--transition-duration);
-       -o-transition-duration: var(--transition-duration);
-          transition-duration: var(--transition-duration);
-  -webkit-transition-timing-function: var(--transition-timing-function);
-       -o-transition-timing-function: var(--transition-timing-function);
-          transition-timing-function: var(--transition-timing-function);
 }
 
 .map {
@@ -2017,40 +1991,13 @@ ul.section-title {
 }
 
 /*logo footer*/
+.footer__accent--color {
+  color: var(--primery-fon-color);
+}
+
 .logo-footer .accent-footer:focus,
 .logo-footer .accent-footer:hover {
   color: var(--body-text-color);
-}
-
-.logo-footer {
-  font-family: "Raleway";
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--body-text-color);
-  -webkit-transition-duration: var(--transition-duration);
-       -o-transition-duration: var(--transition-duration);
-          transition-duration: var(--transition-duration);
-  -webkit-transition-timing-function: var(--transition-timing-function);
-       -o-transition-timing-function: var(--transition-timing-function);
-          transition-timing-function: var(--transition-timing-function);
-}
-
-.accent-footer {
-  font-family: "Raleway";
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 0px;
-  letter-spacing: 0.03em;
-  color: var(--primery-fon-color);
-  -webkit-transition-duration: var(--transition-duration);
-       -o-transition-duration: var(--transition-duration);
-          transition-duration: var(--transition-duration);
-  -webkit-transition-timing-function: var(--transition-timing-function);
-       -o-transition-timing-function: var(--transition-timing-function);
-          transition-timing-function: var(--transition-timing-function);
 }
 
 .map {

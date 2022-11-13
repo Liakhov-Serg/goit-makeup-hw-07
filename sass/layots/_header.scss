@@ -7,7 +7,7 @@
 /* conteiner header */
 .header__link:hover,
 .header__link:focus {
-  color: rgba(33, 150, 243, 1);
+  color: var(--body-text-color);
   
   
 }
@@ -60,8 +60,11 @@ ul {
   &:focus {
     color: var(--body-text-color);
     
+   
   }
-
+  &--color {
+      color: var(--primery-fon-color);
+  }
 }
 
 .carrent {

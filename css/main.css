@@ -711,10 +711,10 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
+  /* hero batton */
 }
 
-/* hero batton */
-.hero-button {
+.hero-batton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -963,6 +963,30 @@ ul {
 .social-link:hover, .social-link:focus {
   background-color: var(--body-text-color);
 }
+.social-link__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  fill: var(--primery-fon-color);
+  background-position: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-transition-duration: var(--transition-duration);
+       -o-transition-duration: var(--transition-duration);
+          transition-duration: var(--transition-duration);
+  -webkit-transition-timing-function: var(--transition-timing-function);
+       -o-transition-timing-function: var(--transition-timing-function);
+          transition-timing-function: var(--transition-timing-function);
+}
+.social-link__footer:hover, .social-link__footer:focus {
+  background-color: var(--body-text-color);
+}
 
 .social-link:hover .social-icon {
   fill: #ffffff;
@@ -1162,42 +1186,6 @@ ul {
   margin: 0;
 }
 
-.footer__title {
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: var(--primery-fon-color);
-}
-
-.social-link__footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 10px;
-  width: 44px;
-  height: 44px;
-  fill: var(--primery-fon-color);
-  border-radius: 50%;
-  background-position: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transition-duration: var(--transition-duration);
-       -o-transition-duration: var(--transition-duration);
-          transition-duration: var(--transition-duration);
-  -webkit-transition-timing-function: var(--transition-timing-function);
-       -o-transition-timing-function: var(--transition-timing-function);
-          transition-timing-function: var(--transition-timing-function);
-}
-.social-link__footer:hover, .social-link__footer:focus {
-  background-color: var(--body-text-color);
-}
-
 .social-icon__footer {
   fill: var(--primery-fon-color);
   -webkit-transition-duration: var(--transition-duration);
@@ -1210,6 +1198,14 @@ ul {
 
 .social__item__footer:hover .social__icon {
   fill: var(--primery-fon-color);
+}
+
+.footer__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primery-fon-color);
 }
 
 .conteiner-wrap {
@@ -2070,42 +2066,6 @@ ul.section-title {
   margin: 0;
 }
 
-.footer__title {
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: var(--primery-fon-color);
-}
-
-.social-link__footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 10px;
-  width: 44px;
-  height: 44px;
-  fill: var(--primery-fon-color);
-  border-radius: 50%;
-  background-position: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transition-duration: var(--transition-duration);
-       -o-transition-duration: var(--transition-duration);
-          transition-duration: var(--transition-duration);
-  -webkit-transition-timing-function: var(--transition-timing-function);
-       -o-transition-timing-function: var(--transition-timing-function);
-          transition-timing-function: var(--transition-timing-function);
-}
-.social-link__footer:hover, .social-link__footer:focus {
-  background-color: var(--body-text-color);
-}
-
 .social-icon__footer {
   fill: var(--primery-fon-color);
   -webkit-transition-duration: var(--transition-duration);
@@ -2118,6 +2078,14 @@ ul.section-title {
 
 .social__item__footer:hover .social__icon {
   fill: var(--primery-fon-color);
+}
+
+.footer__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primery-fon-color);
 }
 
 .conteiner-wrap {

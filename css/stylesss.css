@@ -220,15 +220,16 @@ ul {
 }
 
 
-.header .link:hover,
-.header .link:focus {
+.header_link:hover,
+.header_link:focus {
   color: rgba(33, 150, 243, 1);
   
   
 }
 
 /* site-nav */
-.site-nav .link {
+.site-nav
+ .site-nav__link {
   padding-top: 28px;
   padding-bottom: 28px;
 
@@ -236,7 +237,7 @@ ul {
   transition-timing-function: var(--transition-timing-function);
 }
 
-.link {
+.site-nav__link {
   text-decoration: none;
   color: #000;
 }

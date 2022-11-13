@@ -1,9 +1,9 @@
 /* logotype */
-.main-nav__logo:hover {
+.logo:hover {
     color: var(--body-text-color);
     
   }
-  .main-nav__logo {
+  .logo {
     font-family: "Raleway";
     font-size: 26px;
     font-weight: bold;
@@ -31,5 +31,6 @@
   
     transition-duration: var(--transition-duration); 
     transition-timing-function:var(--transition-timing-function);
-  }
   
+  }
+ 

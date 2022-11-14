@@ -6,9 +6,7 @@
   margin-bottom: 0px;
 }
 .button-box {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  @include flexed(center,center);
 
   
   margin-bottom: 50px;
@@ -34,6 +32,8 @@
   
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
+     
+
 }
 .button-portfolio:hover, 
 .button-portfolio:focus {

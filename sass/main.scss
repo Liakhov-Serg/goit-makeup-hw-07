@@ -1,11 +1,13 @@
+@import './abstracts/mixins';
 @import './abstracts/variables';
 @import './base/modernnormalize';
 @import './base/basic';
 @import './layots/header';
 @import './components/logo';
 @import './layots/hero';
+@import './components/buttons';
+@import './layots/peculiarities';
 
-@import './layots/ourpeculiarities';
 @import './layots/ourworks';
 @import './layots/ourteam';
 @import './components/socialicon';
@@ -17,8 +19,8 @@
 @import './layots/modal';
 @import './components/buttonmodal';
 
-@import './layots/mainport';
-@import './layots/cardsetport';
+@import './layots/portmain';
+@import './layots/portcardset';
 @import './layots/footer';
 
 

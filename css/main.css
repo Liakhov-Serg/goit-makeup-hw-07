@@ -510,6 +510,12 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   line-height: 1.14;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -551,12 +557,15 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: auto;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
   font-weight: 500;
   font-size: 100%;
   line-height: 1.14;
@@ -584,12 +593,12 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
   gap: 10px;
@@ -606,18 +615,6 @@ ul {
 .auth-nav__item--tel:hover,
 .auth-nav__item--tel:focus {
   color: var(--body-text-color);
-}
-
-.item .auth-nav {
-  padding-top: 31px;
-  padding-bottom: 31px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 50px;
 }
 
 .auth-nav .item + .item {
@@ -718,6 +715,9 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -730,6 +730,9 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   /* size button */
   min-width: 216px;
   height: 50px;
@@ -751,6 +754,17 @@ ul {
   letter-spacing: 0.06em;
   text-decoration: none;
   color: #ffffff;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: var(--body-text-color);
 }
 
 /* Особливості */
@@ -824,6 +838,9 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -843,6 +860,9 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -851,9 +871,6 @@ ul {
   font-weight: 700;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   position: absolute;
   -webkit-transform: translate(0, 223px);
       -ms-transform: translate(0, 223px);
@@ -874,6 +891,9 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1028,6 +1048,9 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1052,14 +1075,14 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  height: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
+  height: 100%;
   border-radius: 4px;
   border: 1px solid #afb1b8;
   -webkit-transition-duration: var(--transition-duration);
@@ -1234,6 +1257,12 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .field-input__footer {
@@ -1257,6 +1286,8 @@ ul {
   display: flex;
   -webkit-box-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   letter-spacing: 0.03em;
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.6);
@@ -1271,6 +1302,7 @@ ul {
   /* identical to box height, or 125% */
   display: flex;
   align-items: center;
+  justify-content: center;
   letter-spacing: 0.03em;
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.6);
@@ -1287,6 +1319,8 @@ ul {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   letter-spacing: 0.03em;
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.6);
@@ -1303,6 +1337,8 @@ ul {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   letter-spacing: 0.03em;
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.6);
@@ -1321,6 +1357,9 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   letter-spacing: 0.03em;
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.6);
@@ -1344,7 +1383,9 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   letter-spacing: 0.06em;
   color: #FFFFFF;
   background: var(--body-text-color);
@@ -1901,12 +1942,12 @@ ul.section-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-transform: translateY(100%);
       -ms-transform: translateY(100%);
           transform: translateY(100%);
@@ -2114,6 +2155,12 @@ ul.section-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .field-input__footer {
@@ -2137,6 +2184,8 @@ ul.section-title {
   display: flex;
   -webkit-box-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   letter-spacing: 0.03em;
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.6);
@@ -2151,6 +2200,7 @@ ul.section-title {
   /* identical to box height, or 125% */
   display: flex;
   align-items: center;
+  justify-content: center;
   letter-spacing: 0.03em;
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.6);
@@ -2167,6 +2217,8 @@ ul.section-title {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   letter-spacing: 0.03em;
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.6);
@@ -2183,6 +2235,8 @@ ul.section-title {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   letter-spacing: 0.03em;
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.6);
@@ -2201,6 +2255,9 @@ ul.section-title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   letter-spacing: 0.03em;
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.6);
@@ -2224,7 +2281,9 @@ ul.section-title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   letter-spacing: 0.06em;
   color: #FFFFFF;
   background: var(--body-text-color);

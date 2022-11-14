@@ -165,7 +165,7 @@
   }
   
   .field__footer {
-    display: flex;
+    @include flexed(center,center);
     
   }
   
@@ -186,8 +186,7 @@
   line-height: 20px;
   /* identical to box height, or 125% */
   
-  display: flex;
-  align-items: center;
+  @include flexed(center,center);
   letter-spacing: 0.03em;
   padding-left: 30px;
   
@@ -209,9 +208,7 @@
     line-height: 1.87;
     /* identical to box height, or 188% */
     
-    display: flex;
-    align-items: center;
-    text-align: center;
+    @include flexed(center,center);
     letter-spacing: 0.06em;
     
     color: #FFFFFF;

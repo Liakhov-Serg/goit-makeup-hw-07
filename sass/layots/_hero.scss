@@ -45,13 +45,11 @@
     /* hero batton */
   }
   .hero-batton {
-    display: flex;
-    justify-content: center;
+    @include flexed(center,center);
   }
   
   .button__prime {
-    display: flex;
-    align-items: center;
+    @include flexed(center,center);
   
     /* size button */
     min-width: 216px;

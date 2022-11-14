@@ -19,9 +19,8 @@ ul {
 }
 /* Menu navigation */
 .main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexed(center,center);
+ 
 }
 
 /* logotype */
@@ -105,7 +104,7 @@ ul {
 }
 
 .site-nav {
-  display: flex;
+  @include flexed(center,center);
 
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -155,10 +154,10 @@ color: #2196F3;
 
 /* auth-nav */
 .auth-nav__list {
-  display: flex;
+  @include flexed(center,center);
   margin-left: auto;
   align-content: center;
-  align-items: center;
+  
   font-weight: 500;
   font-size: 100%;
   line-height: 1.14;
@@ -184,9 +183,7 @@ color: #2196F3;
 
 .auth-nav__item--mail,
 .auth-nav__item--tel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexed(center,center);
   padding-top: 30px;
   padding-bottom: 30px;
   gap: 10px;
@@ -204,15 +201,7 @@ color: #2196F3;
 
 }
  
-.item .auth-nav {
-  padding-top: 31px;
-  padding-bottom: 31px;
-  display: flex;
-  justify-content: center;
-  gap: 50px;
 
-  
-}
 .auth-nav .item + .item {
   margin-left: 50px;
   padding-top: 0px;

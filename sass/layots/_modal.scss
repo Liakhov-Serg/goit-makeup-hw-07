@@ -2,7 +2,6 @@
 .modal {
     position: absolute;
     min-width: 528px;
-    
     padding: 40px;
   
     top: 50%;
@@ -20,9 +19,7 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexed(center,center);
     top: 8px;
     right: 8px;
     padding: 0;
@@ -138,9 +135,7 @@
   
   }
   .privacy__wrapp {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexed(center,center);
     width: 15px;
     height: 14px;
     border: 1px solid;
@@ -192,6 +187,41 @@
   /* .privacy__input:checked + .privacy__wpapp */
   /* .privacy__icon { */
      
+    .button-modal__block {
+      display: flex;
+      justify-content: center;
+      height: 50px;
+    }
+    .button-modal {
+      @include flexed(center,center);
+    /* size button */
+    min-width: 200px;
+    
+    
+    
+     /* color shadow batton*/
+     background: var(--body-text-color);
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
+    /* position text button */
+       margin-top: 0;
+       margin-bottom: 0;
+       padding: 10px 52px;
+       
+    
+        /* text button */
+    
+     font-weight: 700;
+    
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+      
+      
+    }
+    
   
   
   

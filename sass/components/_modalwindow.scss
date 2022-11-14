@@ -1,7 +1,7 @@
+/* modal window */
 .modal {
   position: absolute;
   min-width: 528px;
-  
   padding: 40px;
 
   top: 50%;
@@ -19,9 +19,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
   position: absolute;
   width: 30px;
   height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexed(center,center);
   top: 8px;
   right: 8px;
   padding: 0;
@@ -42,11 +40,7 @@ background-color: transparent;
     fill: currentColor;
 }
 
-
-/* .social__item__footer:hover .social__icon {
-  fill: var(--primery-fon-color); */
-
-/* .form { */
+/* form modal window */
 
 
 .form__title {
@@ -141,9 +135,7 @@ color: rgba(117, 117, 117, 0.5);
 
 }
 .privacy__wrapp {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexed(center,center);
   width: 15px;
   height: 14px;
   border: 1px solid;
@@ -195,27 +187,18 @@ color: #757575;
 /* .privacy__input:checked + .privacy__wpapp */
 /* .privacy__icon { */
    
-
-
-
-/* .close__icon { */
- 
-
-.button__modal__block {
+.button-modal__block {
   display: flex;
   justify-content: center;
   height: 50px;
 }
 .button__modal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexed(center,center);
 /* size button */
 min-width: 200px;
 height: 50px;
 border-radius: 4px;
 border: transparent;
-
 
  /* color shadow batton*/
  background: var(--body-text-color);

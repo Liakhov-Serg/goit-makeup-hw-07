@@ -1727,7 +1727,7 @@ ul {
 .checkbox:checked + .checkbox__icon {
   border: 2px solid var(--body-text-color);
   background-color: var(--body-text-color);
-  background-image: url(/images/checkmarkmin.svg);
+  background-image: url(../images/checkmarkmin.svg);
   background-repeat: no-repeat;
   background-position: center;
 }

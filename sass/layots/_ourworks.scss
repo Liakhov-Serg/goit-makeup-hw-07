@@ -6,7 +6,7 @@
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
-  margin-top: 0px;
+  
   text-align: center;
   margin-bottom: 50px;
 }
@@ -14,8 +14,8 @@
   @include flexed(center,center);
   gap: 30px;
   width: 1170px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-bottom: 94px;
+  
 }
 
 .section-works__title {
@@ -31,7 +31,7 @@
 
     font-weight: 700;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
+    color: var(--primery-fon-color);
     
     
     

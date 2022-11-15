@@ -34,16 +34,13 @@
     margin-bottom: 10px;
   }
   .section-task {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    
     line-height: 1.71;
     /* or 171% */
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--primery-text-color-gray);
     
       }
   

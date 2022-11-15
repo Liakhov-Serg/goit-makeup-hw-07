@@ -30,11 +30,10 @@
     &:hover,
     &:focus {
       background-color: var(--body-text-color);
+      
     }
     &__footer { 
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flexed(center,center);
       gap: 10px;
               
       fill: var(--primery-fon-color);
@@ -49,21 +48,18 @@
          &:focus {
           background-color: var(--body-text-color);
          }
-    
-    }
-  
-  }
-  
 
-  .social-link:hover .social-icon {
-    fill: #ffffff;
-    
+        }
+  
   }
+  
+//  .social-link:hover .social-icon {
+//     fill: #ffffff;
+    
+//   }
   
   .social-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexed(center,center);
     
     width: 20px;
     height: 20px;
@@ -74,5 +70,17 @@
   
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
+  
+    
+  &:hover,
+  &:focus {
+    fill: #ffffff;
   }
+  .social-link:hover {
+    background-color: var(--body-text-color);
+  }
+  
+  }
+  
+  
   

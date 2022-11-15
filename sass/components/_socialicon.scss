@@ -32,6 +32,10 @@
       background-color: var(--body-text-color);
       
     }
+    &:hover .social-icon,
+    &:focus .social-icon {
+      fill: var(--primery-fon-color);
+    }
     &__footer { 
       @include flexed(center,center);
       gap: 10px;

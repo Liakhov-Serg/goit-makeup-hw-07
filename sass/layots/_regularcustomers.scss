@@ -21,7 +21,9 @@
   
     width: 170px;
     height: 92px;
-     
+    
+    
+  
   }
   .client__item {
     @include flexed(center,center);
@@ -37,18 +39,26 @@
   
   &:hover,
   &:focus {
-    border-color:  var(--body-text-color);
-  }
-  
+    border-color: var(--body-text-color);
+
+    &:hover .client__label,
+    &:focus .client__label {
+        fill: var(--body-text-color)
+      }
+    
+
+     }
+
+ 
     }
   
 
-  .client__item:hover .client__label,
-  .client__item:focus .client__label {
+  // .client__item:hover .client__label,
+  // .client__item:focus .client__label {
   
-  fill: currentColor;
+  // fill: currentColor;
   
-  }
+  // }
   
   .client__label {
     fill: rgba(175, 177, 184, 1);
@@ -56,11 +66,13 @@
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
   }
-  .client__cards:hover .client__label,
-  .client__cards:focus .client__label {
-    fill: var(--body-text-color);
+  // .client__cards:hover .client__label
+  //  {
+    // fill: var(--body-text-color);
     
   
-  }
+  // }
+  // .client__cards:focus .client__label {
+    // fill: var(--body-text-color);
   
-  
+  // }

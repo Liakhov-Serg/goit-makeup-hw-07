@@ -948,6 +948,9 @@ ul {
 .social-link:hover, .social-link:focus {
   background-color: var(--body-text-color);
 }
+.social-link:hover .social-icon, .social-link:focus .social-icon {
+  fill: var(--primery-fon-color);
+}
 .social-link__footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1062,10 +1065,8 @@ ul {
 .client__item:hover, .client__item:focus {
   border-color: var(--body-text-color);
 }
-
-.client__item:hover .client__label,
-.client__item:focus .client__label {
-  fill: currentColor;
+.client__item:hover:hover .client__label, .client__item:hover:focus .client__label, .client__item:focus:hover .client__label, .client__item:focus:focus .client__label {
+  fill: var(--body-text-color);
 }
 
 .client__label {
@@ -1076,11 +1077,6 @@ ul {
   -webkit-transition-timing-function: var(--transition-timing-function);
        -o-transition-timing-function: var(--transition-timing-function);
           transition-timing-function: var(--transition-timing-function);
-}
-
-.client__cards:hover .client__label,
-.client__cards:focus .client__label {
-  fill: var(--body-text-color);
 }
 
 .cont__footer {
